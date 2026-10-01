@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    
+}
+body{
+    background-color: #232830;
+}
+header{
+    display: block;
+    text-align: center;
+    .header-color{
+        color: rgb(199, 74, 74);
+    }
+    .header-paragraph-color{
+        color: whitesmoke;
+    }
+    .header-list{
+        display: flex;
+        justify-content: end;
+        color: whitesmoke;
+        gap:1rem;
+        cursor: pointer;
+    }
+    img{
+     width: 150px;
+        height: 150px;
+    }
+}
